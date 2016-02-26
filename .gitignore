@@ -1,3 +1,7 @@
+src\sass\bower_components
+sass\node_modules
+node_modules
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
