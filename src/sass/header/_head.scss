@@ -1,0 +1,79 @@
+.header {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	background-color: #061C2B;
+	padding: 20px 0 10px;
+	&__title {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		color: #FFF;		
+		h2 {
+			font-weight: bold;
+			margin: 0;
+			font-size: 40px;
+		}
+		p {
+			font-weight: bold;
+			margin: 0;
+		}
+		&--logo {
+			display: block;
+			float: left;
+			position: relative;
+			width: 25%;
+			margin-right: 20px;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	&__contacts {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		color: #FFF;
+		text-align: right;
+		h3 {
+			font-weight: bold;
+			font-size: 35px;
+			margin: 0;
+		}
+		h4 {
+			color: #FF633C;
+			font-size: 25px;
+			max-width: none;
+			font-weight: bold;
+			margin: 5px 0 0;
+		}
+		p {
+			font-size: 15px;
+			color: #FF633C;
+			font-weight: bold;
+		}
+		&--order-call {
+			display: inline-block;
+			font-weight: bold;
+			font-size: 14px;
+			@include border-radius(5px);
+			background-color: #428AC9;
+			border-bottom: 4px solid #276ba2;
+			padding: 10px 20px;
+			text-decoration: none;
+			color: #fff;
+			text-decoration: none;
+			@include transition(.3s);
+			margin-top: 5px;
+			&:hover, &:focus {
+				text-decoration: none;
+				color: #fff;
+				background-color: darken(#428AC9,10%);
+			}			
+		}
+	}
+	
+}
