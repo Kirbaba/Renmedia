@@ -74,7 +74,36 @@
     </header>
     <!-- close .header -->
 
-    video
+    <!-- open .video-commercial -->
+    <section class="video-commercial">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+    				<h2>ГЛАВНЫЙ ЗАГОЛОВОК УТППП</h2>
+    				<h1>РЕКЛАМНЫЙ РОЛИК</h1>
+    				<h4>ПОЯСНЕНИЕ ПОЯСНЕНИЕ ПОЯСНЕНИЕ</h4>
+					
+					<!-- open .video-commercial__form -->
+					<div class="video-commercial__form">
+						<h4>ПРИСОЕДИНЯЙТЕСЬ НА КАНАЛЕ РЕН</h4>
+						<input type="tel" class="video-commercial__form--inp" placeholder="Введите ваш номер телефона"/>
+						<input type="submit" class="video-commercial__form--sub" value="ПОЛУЧИТЬ"/>
+						<p>Устранение сомнений, и тест тест тест сомнений, и тест тест тест</p>
+						<p>Мы обязуемся не передавать данную информацию, читайте Политику конфиденциальности</p>
+					</div>
+					<!-- close .video-commercial__form -->
+
+    			</div>
+    			<!-- close .col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .video-commercial -->
 <?php wp_footer(); ?>
 </body>
 </html>

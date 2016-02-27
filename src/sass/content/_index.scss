@@ -1,2 +1,97 @@
-
+.video-commercial {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 85px 0;
+	color: #FFF;
+	background-color: rgba(185, 92, 88, 0.8);
+	text-align: center;
+	-webkit-box-shadow: inset 0px -50px 80px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    inset 0px -50px 80px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         inset 0px -50px 80px 0px rgba(0, 0, 0, 0.2);
+	h1 {
+		font-size: 75px;
+		font-weight: bolder;
+		text-transform: uppercase;
+		text-shadow: 0px 0px 15px #000;
+	}
+	h2 {
+		font-size: 45px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-shadow: 0px 0px 15px #000;
+	}
+	h4 {
+		font-size: 36px;
+		margin: 15px 0;
+	}
+	&__form {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		margin-top: 25px;
+		background-color: rgba(0,0,0,.8);
+		@include border-radius(15px);
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 30px;
+		text-align: left;
+		color: #FFF;
+		h4 {
+			font-size: 22px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		p {
+			font-size: 13px;
+			font-weight: bolder;
+			margin: 0;
+		}
+		&--inp {
+			font-size: 20px;
+			border: 3px solid #DCDCDC;
+			outline: none;
+			width: 75%;
+			height: 45px;
+			line-height: 45px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			padding: 0 15px;
+			font-weight: bold;
+			color: #000;
+			display: inline-block;
+			margin: 25px 0 15px;
+		}
+		&--sub {
+			font-size: 20px;
+			text-transform: uppercase;
+			width: 20%;
+			height: 48px;
+			line-height: 45px;
+			margin-left: 35px;
+			color: #fff;
+			font-weight: bold;
+			text-align: center;
+			outline: none;
+			display: inline-block;
+			position: relative;
+			@include transition(.3s);
+			border-bottom: 3px solid #2D4F70;
+			background-color: #428AC9;
+			border-left: none;
+			border-top: none;
+			border-right: none;
+			&:hover, &:focus {
+				background-color: darken(#428AC9, 15%);
+				border-bottom-color: darken(#2D4F70 ,15%);
+			}
+			
+		}
+	}
+}
 
