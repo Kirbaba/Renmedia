@@ -261,6 +261,207 @@
     	<!-- close .container -->
     </section>
     <!-- close .advantages -->
+
+    <!-- open .prices -->
+    <section class="prices">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .block_title -->
+	    		<h2 class="block_title">ЦЕНЫ</h2>
+	    		<!-- close .block_title -->
+	    		<!-- open .block_desc -->
+	    		<h5 class="block_desc">Описание тарифов и цен на размещение</h5>
+	    		<!-- close .block_desc -->
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item">
+    					<h4>ПРАЙМ</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>35 руб.</h3>
+    						<small>за секунду</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Подключить</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item prices__item--center">
+    					<h4>ПРАЙМ</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>35 руб.</h3>
+    						<small>за секунду</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Подключить</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item">
+    					<h4>ПРАЙМ</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>35 руб.</h3>
+    						<small>за секунду</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Подключить</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+
+    	<!-- open .container-fluid -->
+    	<div class="container-fluid">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .prices__what-to-do -->
+    			<div class="prices__what-to-do">
+    				<h2>Что делать, если у меня нет видеоролика?</h2>
+    				<a href="#">Оставить заявку на изготовление</a>
+    			</div>
+    			<!-- close .prices__what-to-do -->
+    			
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container-fluid -->
+
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item">
+    					<h4>ОТКРЫТКА</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>8 000 руб.</h3>
+    						<small>до 30 сек</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Заказать</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item prices__item--center">
+    					<h4>СЛАЙДОВЫЙ</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>12 000 руб.</h3>
+    						<small>до 30 сек</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Заказать</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+
+    			<!-- open .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+    				<!-- open .prices__item -->
+    				<div class="prices__item">
+    					<h4>РЕКЛАМНЫЙ</h4>
+    					<!-- open .prices__item--price -->
+    					<div class="prices__item--price">
+    						<h3>16 000 руб.</h3>
+    						<small>до 30 сек</small>
+    					</div>
+    					<!-- close .prices__item--price -->
+    					<!-- open .prices__item--properties -->
+    					<div class="prices__item--properties">
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<p>Свойство 1</p>
+    						<a href="#">Заказать</a>
+    					</div>
+    					<!-- close .prices__item--properties -->
+    				</div>
+    				<!-- close .prices__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 -->
+				<!-- open .prices__extra -->
+				<div class="prices__extra">
+					<h3>Дополнительные услуги</h3>
+					<ul>
+						<li>Сценарий: от 5 000 руб</li>
+						<li>Видеосъемка</li>
+						<li>Переозвучка</li>
+						<li>Сценарий: от 5 000 руб</li>
+						<li>Видеосъемка</li>
+						<li>Переозвучка</li>
+					</ul>
+				</div>
+				<!-- close .prices__extra -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .prices -->
 <?php wp_footer(); ?>
 </body>
 </html>
