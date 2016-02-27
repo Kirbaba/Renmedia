@@ -104,6 +104,163 @@
     	<!-- close .container -->
     </section>
     <!-- close .video-commercial -->
+
+    <!-- open .advantages -->
+    <section class="advantages">
+    	<!-- open .container -->
+    	<div class="container">
+	    	<!-- open .row -->
+	    	<div class="row">
+	    		<!-- open .block_title -->
+	    		<h2 class="block_title">БЛОК ПРЕИМУЩЕСТВ</h2>
+	    		<!-- close .block_title -->
+	    		<!-- open .block_desc -->
+	    		<h5 class="block_desc">Пояснение что получаем на выходе</h5>
+	    		<!-- close .block_desc -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		
+	    		<!-- open .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	    			<!-- open .advantages__item -->
+	    			<div class="advantages__item">
+	    				<!-- open .advantages__item--icon -->
+	    				<div class="advantages__item--icon">
+	    					<i class="fa fa-asterisk"></i>
+						</div>
+	    				<!-- close .advantages__item--icon -->
+	    				<!-- open .advantages__item--desc -->
+	    				<div class="advantages__item--desc">
+	    					<h4>Преимущество первое</h4>
+	    					<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+	    				</div>
+	    				<!-- close .advantages__item--desc -->
+	    			</div>
+	    			<!-- close .advantages__item -->
+	    		</div>
+	    		<!-- close .col-lg-4 col-md-4 col-sm-6 col-xs-12 -->
+	    	</div>
+	    	<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .advantages -->
 <?php wp_footer(); ?>
 </body>
 </html>

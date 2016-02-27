@@ -95,3 +95,46 @@
 	}
 }
 
+.advantages {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 55px 0 145px;
+	background-color: #EFEFEF;
+	&__item {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		margin: 25px 0;
+		&--icon {
+			display: inline-block;
+			width: 65px;
+			height: 65px;
+			line-height: 65px;
+			color: #FFF;
+			font-size: 40px;
+			text-align: center;
+			margin-right: 25px;		
+			@include border-radius(50%);
+			background-color: #428AC9;	
+			vertical-align: top;
+		}
+		&--desc {
+			display: inline-block;
+			width: calc(100% - 94px);
+			vertical-align: top;
+			h4 {
+				font-weight: bold;
+				margin: 0 0 10px 0;
+				font-size: 17px;
+			}
+			p {
+				font-size: 14px;
+				margin: 0;
+				font-weight: 500;
+			}
+		}
+	}
+}

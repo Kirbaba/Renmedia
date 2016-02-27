@@ -13,10 +13,18 @@ ul {
 }
 
 .block_title {
-	color: #fff;
-    font-size: 3.5em;
+	color: #000;
+    font-size: 36px;
+    text-transform: uppercase;
 	text-align: center;
-	margin-top: 15px;	
+	margin: 0 0 15px;	
+	font-weight: bolder;
+}
+.block_desc {
+	font-size: 24px;
+	text-align: center;
+	color: #A9A9A9;
+	margin: 0 0 30px;
 }
 
 .p0  {
