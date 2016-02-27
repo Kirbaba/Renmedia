@@ -358,7 +358,7 @@
     			<!-- open .prices__what-to-do -->
     			<div class="prices__what-to-do">
     				<h2>Что делать, если у меня нет видеоролика?</h2>
-    				<a href="#">Оставить заявку на изготовление</a>
+    				<a href="#" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
     			</div>
     			<!-- close .prices__what-to-do -->
     			
@@ -462,6 +462,122 @@
     	<!-- close .container -->
     </section>
     <!-- close .prices -->
+
+    <!-- open .video-slider -->
+    <section class="video-slider">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .block_title -->
+	    		<h2 class="block_title">НАШИ РАБОТЫ ПОРТФОЛИО</h2>
+	    		<!-- close .block_title -->
+	    		<!-- open .block_desc -->
+	    		<h5 class="block_desc">Ролики клиентов хочешь такой же посмотри</h5>
+	    		<!-- close .block_desc -->
+	    		<!-- open #owl-demo -->
+	    		<div id="owl-demo" class="owl-carousel owl-theme">
+	    			<!-- open .owl-item -->
+	    			<div class="owl-item">
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/150734165?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/147520163?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/155932635?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/156161909?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/155086357?portrait=0&badge=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/156045670?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/144698619?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+						
+	    			</div>
+	    			<!-- close .owl-item -->
+	    			
+	    			<!-- open .owl-item -->
+	    			<div class="owl-item">
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+	    				<!-- open .video-slider__item -->
+	    				<div class="video-slider__item">
+	    					<iframe src="https://player.vimeo.com/video/153339497?byline=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    				</div>
+	    				<!-- close .video-slider__item -->
+						
+	    			</div>
+	    			<!-- close .owl-item -->	    			
+	    			
+	    		</div>
+	    		<!-- close #owl-demo -->
+	    		<a href="#" class="video-slider--more">Смотреть больше роликов</a>
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .video-slider -->
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -244,7 +244,7 @@
 			font-size: 36px;
 			margin: 0 0 15px 0;
 		}
-		a {
+		&--but {
 			display: inline-block;
 			position: relative;
 			@include transition(.3s);
@@ -257,6 +257,8 @@
 			margin-top: 15px;
 			&:hover, &:focus {
 				background-color: darken(#3071A8,10%);
+				text-decoration: none;
+				color: #FFF;
 			}
 		}
 	}
@@ -285,4 +287,100 @@
 		    }
 		}
 	}
+}
+
+.video-slider {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	color: #FFF;
+	background-color: #428AC9;
+	padding: 35px 0;
+	text-align: center;
+	h2 {
+		color: #FFF;
+	}
+	h5 {
+		color: #FFF;
+	}
+	.owl-carousel {
+		display: block;
+		height: 465px;
+		width: 90%;
+		margin: 15px auto;
+	}
+	.video-slider__item {
+		display: block;
+		float: left;
+		width: 25%;
+		height: 220px;
+		margin-right: -1px;
+		position: relative;
+	}
+	&--more {
+		@extend .prices__what-to-do--but;
+		margin-top: 0;
+		font-size: 24px;
+	}
+}
+
+#owl-demo .owl-item img{
+    display: block;
+    width: 100%;
+    height: auto;
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+    padding: 0 45px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 50%; 
+  background: none;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  &:after {
+  	font-family: FontAwesome;
+  	content: '\f104';
+  	display: inline-block;
+  	font-size: 35px;
+  	color: #FFF;
+  }
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: none;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  &:after {
+  	font-family: FontAwesome;
+  	content: '\f105';
+  	display: inline-block;
+  	font-size: 35px;
+  	color: #FFF;
+  }
 }
