@@ -887,6 +887,88 @@
     	<!-- close .container -->
     </section>
     <!-- close .partners -->
+
+    <!-- open .geography -->
+    <section class="geography">	
+		<!-- open .block_title -->
+		<h2 class="block_title">География вещания</h2>
+		<!-- close .block_title -->
+		<!-- open .block_desc -->
+		<h5 class="block_desc">Карта вещания рекламных блоков на канале рентв</h5>
+		<!-- close .block_desc -->
+		<!-- open .map-area -->
+		<article class="map-area">
+			<!-- open #map -->
+			<div id="map"></div>
+			<!-- close #map -->
+		</article>
+		<!-- close .map-area -->
+    </section>
+    <!-- close .geography -->
+
+    <!-- open .contacts -->
+    <section class="contacts">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    				<h3><span class="b-blue">Заголовок</span></h3>
+    				<p>Nam ullamcorper, diam sit amet 
+					euismod pelleontesque, eros risus
+					rhoncus libero, inst tibulum nisl ligula</p>
+					<!-- open .contacts--links -->
+					<ul class="contacts--links">
+						<li><a href="#"><i class="fa fa-vk"></i>Вконтакте</a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+					</ul>
+					<!-- close .contacts--links -->				
+    			</div>
+    			<!-- close .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<!-- open .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    				
+    				<h3><span class="b-green">Наш инстаграмм</span></h3>
+    				<div data-il data-il-client-id="c4529a7cdc5d44c497339f32ced8c6b4" data-il-username="rentvchannel" data-il-lang="ru" data-il-show-heading="true" data-il-scroll="true" data-il-width="100%" data-il-height="350px" data-il-image-size="medium" data-il-bg-color="#285989" data-il-content-bg-color="#F8F8F8" data-il-font-color="#FFFFFF" data-il-cache-media-time="0"></div>
+
+    			</div>
+    			<!-- close .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<!-- open .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    				
+    				<h3><span class="b-blue">Контакты</span></h3>
+    				<p>Nam ullamcorper, diam sit amet 
+					euismod pelleontesque, eros risus
+					rhoncus libero, inst tibulum nisl ligula</p>
+					<!-- open .contacts--data -->
+					<ul class="contacts--data">
+						<li><i class="fa fa-home"></i>Адрес</li>
+						<li><i class="fa fa-phone"></i>Телефон</li>
+						<li><i class="fa fa-clock-o"></i>Режим работы</li>
+						<li><i class="fa fa-envelope"></i>Почта</li>
+					</ul>
+					<!-- close .contacts--data -->
+    			</div>
+    			<!-- close .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<!-- open .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    				<!-- open .contacts--form -->
+    				<div class="contacts--form">
+    					<h3>Форма обратной связи</h3>
+    					<input name="contacts--form--name" type="text" class="contacts--form--inp name" placeholder="Имя"/>
+    					<input name="contacts--form--email" type="text" class="contacts--form--inp email" placeholder="Ваш e-mail"/>
+    					<textarea name="contacts--form--mess" class="contacts--form--text" placeholder="Введите сообщение"></textarea>
+    					<input type="text" class="contacts--form--sub" value="Отправить"/>
+    				</div>
+    				<!-- close .contacts--form -->
+    			</div>
+    			<!-- close .col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .contacts -->
 <?php wp_footer(); ?>
 </body>
 </html>

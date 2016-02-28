@@ -536,3 +536,100 @@
 		}
 	}
 }
+
+.geography {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 25px 0;
+	.map-area {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		height: 270px;
+	}
+	#map {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.contacts {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-bottom: 25px;
+	h3 {
+		font-weight: 900;
+		margin: 0 0 15px;
+		font-size: 25px;
+		color: #2F2F2F;
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	p {
+		font-size: 16px;
+		color: #8A8A8A;
+		margin: 0 0 15px;
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	&--links {
+		padding: 0;
+		display: block;
+		float: left;
+		width: 100%;
+		li {
+			margin: 5px 0;
+			a {
+				color: #000;
+				font-size: 20px;
+				text-decoration: none;
+				font-weight: bold;
+				&:hover {
+					color: #428AC9;
+					i {
+						background-color: #428AC9;
+						color: #FFF;
+					}
+				}
+				i {
+					color: #428AC9;
+					margin-right: 10px;
+					font-size: 25px;
+					width: 35px;
+					height: 35px;
+					line-height: 35px;
+					display: inline-block;
+					text-align: center;
+					
+					text-align: center;
+					@include border-radius(2px)
+					border: 1px solid #428AC9;
+					position: relative;
+					@include transition(.3s);
+				}
+			}
+		}
+	}
+	&--data {
+		padding: 0;
+		li {
+			margin: 5px 0;
+			font-size: 20px;
+			color: #747474;
+			i {
+				color: #428AC9;
+				margin-right: 10px;
+			} 
+		}
+	}
+}
