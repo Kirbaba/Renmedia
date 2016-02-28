@@ -720,6 +720,87 @@
     	<!-- close .container -->
     </section>
     <!-- close .havent-site -->
+
+    <!-- open .reviews -->
+    <section class="reviews">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .block_title -->
+    			<h2 class="block_title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+    			<!-- close .block_title -->
+    			<!-- open .block_desc -->
+    			<h5 class="block_desc">Что о наших услугах говорят другие</h5>
+    			<!-- close .block_desc -->
+    			<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    				<!-- open .reviews__item -->
+    				<div class="reviews__item">
+    					<!-- open .reviews__item--text -->
+    					<div class="reviews__item--text">
+    						<p>Aliquam a augue suscipit, bibendum luctus neque. 
+							Vestibulum laoreet rhoncus ipsum, bibendum 
+							ullamcorper hendrerit tellus. Aliquam suscipit, 
+							bibendum luctus neque.</p>
+    					</div>
+    					<!-- close .reviews__item--text -->
+    					<!-- open .reviews__item--user -->
+    					<div class="reviews__item--user">
+    						<!-- open .reviews__item--user--avater -->
+    						<div class="reviews__item--user--avater">
+    							
+							</div>
+    						<!-- close .reviews__item--user--avater -->
+    						<!-- open .reviews__item--user--name -->
+    						<div class="reviews__item--user--name">
+    							<h3>Иван Иванов</h3>
+    							<p>Название компании</p>
+    						</div>
+    						<!-- close .reviews__item--user--name -->
+    					</div>
+    					<!-- close .reviews__item--user -->
+    				</div>
+    				<!-- close .reviews__item -->
+    			</div>
+    			<!-- close .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+    			<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    				<!-- open .reviews__item -->
+    				<div class="reviews__item">
+    					<!-- open .reviews__item--text -->
+    					<div class="reviews__item--text">
+    						<p>Aliquam a augue suscipit, bibendum luctus neque. 
+							Vestibulum laoreet rhoncus ipsum, bibendum 
+							ullamcorper hendrerit tellus. Aliquam suscipit, 
+							bibendum luctus neque.</p>
+    					</div>
+    					<!-- close .reviews__item--text -->
+    					<!-- open .reviews__item--user -->
+    					<div class="reviews__item--user">
+    						<!-- open .reviews__item--user--avater -->
+    						<div class="reviews__item--user--avater">
+    							
+    						</div>
+    						<!-- close .reviews__item--user--avater -->
+    						<!-- open .reviews__item--user--name -->
+    						<div class="reviews__item--user--name">
+    							<h3>Иван Иванов</h3>
+    							<p>Название компании</p>
+    						</div>
+    						<!-- close .reviews__item--user--name -->
+    					</div>
+    					<!-- close .reviews__item--user -->
+    				</div>
+    				<!-- close .reviews__item -->
+    			</div>
+    			<!-- close .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .reviews -->
 <?php wp_footer(); ?>
 </body>
 </html>
