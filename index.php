@@ -578,6 +578,148 @@
     	<!-- close .container -->
     </section>
     <!-- close .video-slider -->
+
+    <!-- open .objections -->
+    <section class="objections">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .block_title -->
+    			<h2 class="block_title">РАБОТА С ВОЗРАЖЕНИЯМИ</h2>
+    			<!-- close .block_title -->
+    			<!-- open .block_desc -->
+    			<h5 class="block_desc">Преимущества перед другими методами</h5>
+    			<!-- close .block_desc -->
+    			<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    				<!-- open .objections__item -->
+    				<div class="objections__item">
+    					<!-- open .objections__item--thumb -->
+    					<div class="objections__item--thumb">
+    						
+    					</div>
+    					<!-- close .objections__item--thumb -->
+    					<!-- open .objections__item--desc -->
+    					<div class="objections__item--desc">
+    						<h4>Наружная реклама</h4>
+    						<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+    					</div>
+    					<!-- close .objections__item--desc -->
+    				</div>
+    				<!-- close .objections__item -->
+
+    				<!-- open .objections__item -->
+    				<div class="objections__item">
+    					<!-- open .objections__item--thumb -->
+    					<div class="objections__item--thumb">
+    						
+    					</div>
+    					<!-- close .objections__item--thumb -->
+    					<!-- open .objections__item--desc -->
+    					<div class="objections__item--desc">
+    						<h4>Печатная реклама</h4>
+    						<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+    					</div>
+    					<!-- close .objections__item--desc -->
+    				</div>
+    				<!-- close .objections__item -->
+
+    				<!-- open .objections__item -->
+    				<div class="objections__item">
+    					<!-- open .objections__item--thumb -->
+    					<div class="objections__item--thumb">
+    						
+    					</div>
+    					<!-- close .objections__item--thumb -->
+    					<!-- open .objections__item--desc -->
+    					<div class="objections__item--desc">
+    						<h4>Наружная реклама</h4>
+    						<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+    					</div>
+    					<!-- close .objections__item--desc -->
+    				</div>
+    				<!-- close .objections__item -->
+
+
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    			<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    				<!-- open .objections__pros -->
+    				<div class="objections__pros">
+    					<img src="<?php bloginfo('template_directory'); ?>/img/pluses.png" alt="" />
+    				</div>
+    				<!-- close .objections__pros -->
+    				
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    			<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    				<!-- open .objections__tv -->
+    				<div class="objections__tv">
+    					<h3>Реклама на телевидении и в интернете</h3>
+    					<p>Lorem ipsum dolor consectetur adipisicing incididunt eiusmod 
+							Опровержение первое
+    					<ul>
+    						<li>Опровержение первое</li>
+    						<li>Опровержение первое</li>
+    						<li>Опровержение первое</li>
+    						<li>Опровержение первое</li>
+    						<li>Опровержение первое</li>
+    					</ul>
+    				</div>
+    				<!-- close .objections__tv -->
+    				<!-- open .objections__item -->
+    				<div class="objections__item">
+    					<!-- open .objections__item--thumb -->
+    					<div class="objections__item--thumb">
+    						
+    					</div>
+    					<!-- close .objections__item--thumb -->
+    					<!-- open .objections__item--desc -->
+    					<div class="objections__item--desc">
+    						<h4>Реклама в интернете</h4>
+    						<p>Lorem ipsum dolor consectetur 
+							adipisicing incididunt eiusmod 
+							tempor incididunt laboredolore 
+							magna aliqua.</p>
+    					</div>
+    					<!-- close .objections__item--desc -->
+    				</div>
+    				<!-- close .objections__item -->
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .objections -->
+
+    <!-- open .havent-site -->
+    <section class="havent-site">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<h2>Что делать, если у меня нет сайта?</h2>
+				<a href="#" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .havent-site -->
 <?php wp_footer(); ?>
 </body>
 </html>

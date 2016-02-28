@@ -325,6 +325,101 @@
 	}
 }
 
+.objections {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 25px 0;
+	&__item {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		margin-bottom: 20px;
+		&--thumb {
+			display: block;
+			float: left;
+			position: relative;
+			width: 35%;
+			height: 120px;
+			margin-right: 5%;
+			@include overflow-img;
+			background-color: #D2D2D2;
+			img {
+				max-width: 150%;
+			}
+		}
+		&--desc {
+			display: block;
+			float: left;
+			position: relative;
+			width: 60%;
+			color: #000;
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				margin: 0 0 10px;
+			}
+			p {
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+	&__tv {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		h3 {
+			margin: 0 0 10px;
+			font-size: 28px;
+			color: #598DC9;
+			font-weight: bold;
+		}
+		p {
+			font-size: 14px;
+		}
+		ul {
+			text-align: right;
+			margin: 25px 0;
+			li {
+				color: #000;
+				font-size: 22px;
+				font-weight: bold;
+				&:before {
+					font-family: FontAwesome;;
+					content: '\f00c';
+					font-size: 22px;
+					color: #598DC9;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	&__pros {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		padding: 50px 0;
+		img {
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+}
+
+.havent-site {
+	@extend .prices__what-to-do;
+	background-color: #EFEFEF;
+	h2 {
+		color: #000;
+	}
+}
+
 #owl-demo .owl-item img{
     display: block;
     width: 100%;
