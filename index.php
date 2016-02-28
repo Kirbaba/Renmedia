@@ -801,6 +801,92 @@
     	<!-- close .container -->
     </section>
     <!-- close .reviews -->
+
+    <!-- open .partners -->
+    <section class="partners">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .block_title -->
+    			<h2 class="block_title">НАШИ ПАРТНЁРЫ</h2>
+    			<!-- close .block_title -->
+    			<!-- open .block_desc -->
+    			<h5 class="block_desc">Список компаний, которые с нами сотрудничают</h5>
+    			<!-- close .block_desc -->
+    			<!-- open .col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-10 col-sm-12 xol-xs-12 -->
+    			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-10 col-sm-12 xol-xs-12">
+    				<!-- open .row -->
+    				<div class="row">
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    					
+    					<!-- open .partners__item -->
+    					<div class="partners__item">
+    						<img src="https://upload.wikimedia.org/wikipedia/ru/archive/3/3c/20150225132013!REN_TV_logo_2015.png" alt="" />
+						</div>
+    					<!-- close .partners__item -->
+    				</div>
+    				<!-- close .row -->
+    			</div>
+    			<!-- close .col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-10 col-sm-12 xol-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </section>
+    <!-- close .partners -->
 <?php wp_footer(); ?>
 </body>
 </html>

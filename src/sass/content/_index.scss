@@ -504,3 +504,35 @@
 		}
 	}
 }
+
+.partners {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 25px 0;
+	&__item {
+		display: inline-block;
+		width: 20%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 0 25px;
+		margin: 25px -2px;
+		height: 120px;
+		position: relative;
+		img {
+			position: relative;
+			height: 100%;
+			width: auto;
+			position: relative;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			   -moz-transform: translate(-50%,-50%);
+			    -ms-transform: translate(-50%,-50%);
+			     -o-transform: translate(-50%,-50%);
+			        transform: translate(-50%,-50%);
+		}
+	}
+}
