@@ -481,42 +481,42 @@
 	    			<div class="owl-item">
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/153339497?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/153339497?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/150734165?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/150734165?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/147520163?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/147520163?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/155932635?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/155932635?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/156161909?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/156161909?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/155086357?portrait=0&badge=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/155086357?portrait=0&badge=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/156045670?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/156045670?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/144698619?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/144698619?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 						
@@ -815,7 +815,7 @@
     			<h5 class="block_desc">Список компаний, которые с нами сотрудничают</h5>
     			<!-- close .block_desc -->
     			<!-- open .col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-10 col-sm-12 xol-xs-12 -->
-    			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-10 col-sm-12 xol-xs-12">
+    			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 xol-xs-12">
     				<!-- open .row -->
     				<div class="row">
     					<!-- open .partners__item -->
