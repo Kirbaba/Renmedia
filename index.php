@@ -290,7 +290,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -314,7 +314,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -338,7 +338,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -388,7 +388,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -412,7 +412,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -436,7 +436,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  data-toggle="modal" data-target="#myModal">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
