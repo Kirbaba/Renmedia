@@ -1,5 +1,7 @@
 <?php
 
+use lib\Parser;
+
 define('TM_DIR', get_template_directory(__FILE__));
 define('TM_URL', get_template_directory_uri(__FILE__));
 
@@ -75,4 +77,62 @@ if ( function_exists( 'add_theme_support' ) )
     add_theme_support( 'post-thumbnails' );
 
 
+/*----------------------------------------------— Наши партнеры —---------------------------------------------------------*/
 
+add_action('init', 'myCustomInitPartners');
+
+function myCustomInitPartners()
+{
+    $labels = array(
+        'name' => 'Наши партнеры', // Основное название типа записи
+        'singular_name' => 'Наш партнер', // отдельное название записи типа Book
+        'add_new' => 'Добавить партнера',
+        'add_new_item' => 'Добавить партнера',
+        'edit_item' => 'Редактировать партнера',
+        'new_item' => 'Новый партнер',
+        'view_item' => 'Посмотреть партнера',
+        'search_items' => 'Найти партнера',
+        'not_found' => 'Не найдено',
+        'not_found_in_trash' => 'В корзине партнеров не найдено',
+        'parent_item_colon' => '',
+        'menu_name' => 'Наши партнеры'
+
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'rewrite' => true,
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title','thumbnail')
+    );
+    register_post_type('partners', $args);
+}
+
+
+
+function partnersShortcode()
+{
+    $args = array(
+        'post_type' => 'partners',
+        'post_status' => 'publish',
+        'posts_per_page' => -1
+    );
+
+    $my_query = null;
+    $my_query = new WP_Query($args);
+
+    $parser = new \Parser();
+    $parser->render(TM_DIR . '/views/partners.php', ['partners'=>$my_query]);
+
+}
+
+add_shortcode('partners', 'partnersShortcode');
+
+/*---------------------------------------------— END Наши партнеры —------------------------------------------------------*/
