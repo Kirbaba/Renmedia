@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+    $('#back_call').on('click', function(){
+        var modalName = $('#modalName').val();
+        var modalPhone = $('#modalPhone').val();
+        $.ajax({
+            url: myajax.act, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendBC&name=" + modalName + "&phone=" + modalPhone ,
+            success: function (data) {
+                alert("Запрос отправлен.");
+                $('#myModal').modal('hide');
+            }
+        });
+        return false;
+    });
  
   $("#owl-demo").owlCarousel({
  
