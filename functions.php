@@ -156,6 +156,30 @@ function sendBC(){
     wp_die();
 }
 
+// AJAX ACTION
+add_action('wp_ajax_sendOrder', 'sendOrder');
+add_action('wp_ajax_nopriv_sendOrder', 'sendOrder');
+
+function sendOrder(){
+    add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    $msg = "<b>Тарифный план:</b> " . $_POST['order_name'] . "<br><b>Имя: </b>" . $_POST['name'] . "<br><b>Телефон: </b>" . $_POST['phone'];
+    wp_mail( get_option('admin_email'), $_POST['order_type'], $msg );
+    remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    wp_die();
+}
+
+// AJAX ACTION
+add_action('wp_ajax_sendPhone', 'sendPhone');
+add_action('wp_ajax_nopriv_sendPhone', 'sendPhone');
+
+function sendPhone(){
+    add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    $msg = "<br><b>Телефон: </b>" . $_POST['phone'];
+    wp_mail( get_option('admin_email'), "Присоединился", $msg );
+    remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    wp_die();
+}
+
 function set_html_content_type() {
     return 'text/html';
 }

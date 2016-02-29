@@ -90,7 +90,7 @@
 					<div class="video-commercial__form">
 						<h4>ПРИСОЕДИНЯЙТЕСЬ НА КАНАЛЕ РЕН</h4>
 						<input type="tel" class="video-commercial__form--inp" placeholder="Введите ваш номер телефона"/>
-						<input type="submit" class="video-commercial__form--sub" value="ПОЛУЧИТЬ"/>
+						<input id="sendPhone" type="submit" class="video-commercial__form--sub" value="ПОЛУЧИТЬ"/>
 						<p>Устранение сомнений, и тест тест тест сомнений, и тест тест тест</p>
 						<p>Мы обязуемся не передавать данную информацию, читайте Политику конфиденциальности</p>
 					</div>
@@ -290,7 +290,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  class="sendOrder" type="1" name="ПРАЙМ">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -314,7 +314,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  class="sendOrder" type="1" name="ПРАЙМ 2">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -338,7 +338,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Подключить</a>
+    						<a href="#nowhere"  class="sendOrder" type="1" name="ПРАЙМ 3">Подключить</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -388,7 +388,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  class="sendOrder" type="2" name="ОТКРЫТКА">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -412,7 +412,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  class="sendOrder" type="2" name="СЛАЙДОВЫЙ">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -436,7 +436,7 @@
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
     						<p>Свойство 1</p>
-    						<a href="#">Заказать</a>
+    						<a href="#nowhere"  class="sendOrder" type="2" name="РЕКЛАМНЫЙ">Заказать</a>
     					</div>
     					<!-- close .prices__item--properties -->
     				</div>
@@ -927,6 +927,21 @@
 		      <input type="submit" id="back_call" class="contacts--form--sub" value="Отправить"/>
 	        
 	      </div>	     
+	    </div>
+	  </div>
+	</div>
+
+    <!-- Modal -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+		      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		      <h4>Оставте свои данные и мы свяжемся с Вами!</h4>
+		      <input id="modalName2" name="myModal--name" type="text" class="contacts--form--inp" placeholder="Имя"/>
+		      <input id="modalPhone2" name="myModal--phone" type="tel" class="contacts--form--inp" placeholder="Телефон"/>
+		      <input type="submit" id="back_call2" class="contacts--form--sub" value="Отправить"/>
+	      </div>
 	    </div>
 	  </div>
 	</div>

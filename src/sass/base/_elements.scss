@@ -100,3 +100,33 @@
     padding-left: 10px;
   }
 }
+
+#myModal2 {
+  .modal-content {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+  }
+  .modal-body {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    h4 {
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      color: #FFF;
+    }
+  }
+  button.close {
+    color: #FFF;
+  }
+  .contacts--form--inp {
+    background-image: none;
+    padding-left: 10px;
+  }
+}

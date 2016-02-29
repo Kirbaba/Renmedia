@@ -14,6 +14,50 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    $('.sendOrder').on('click', function(){
+        var type;
+        var name = $(this).attr('name');
+        if($(this).attr('type') == '1'){
+            type = "Заказ на размещение";
+        }
+        else {
+            type = "Заказ на создание ролика";
+        }
+        $('#back_call2').attr('name', name);
+        $('#back_call2').attr('order_type', type);
+        $('#myModal2').modal('show');
+    });
+
+    $('#back_call2').on('click', function(){
+        var modalName = $('#modalName2').val();
+        var modalPhone = $('#modalPhone2').val();
+        var orderType = $(this).attr('order_type');
+        var orderName = $(this).attr('name');
+        $.ajax({
+            url: myajax.act, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendOrder&name=" + modalName + "&phone=" + modalPhone + "&order_type=" + orderType + "&order_name=" + orderName,
+            success: function (data) {
+                alert("Запрос отправлен.");
+                $('#myModal2').modal('hide');
+            }
+        });
+        return false;
+    });
+
+    $('#sendPhone').on('click', function(){
+        var phone = $(this).prev().val();
+        $.ajax({
+            url: myajax.act, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendPhone&phone=" + phone,
+            success: function (data) {
+                alert("Запрос отправлен.");
+            }
+        });
+        return false;
+    });
  
   $("#owl-demo").owlCarousel({
  
