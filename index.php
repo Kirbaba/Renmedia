@@ -877,10 +877,10 @@
     				<!-- open .contacts--form -->
     				<div class="contacts--form">
     					<h3>Форма обратной связи</h3>
-    					<input name="contacts--form--name" type="text" class="contacts--form--inp name" placeholder="Имя"/>
-    					<input name="contacts--form--email" type="text" class="contacts--form--inp email" placeholder="Ваш e-mail"/>
-    					<textarea name="contacts--form--mess" class="contacts--form--text" placeholder="Введите сообщение"></textarea>
-    					<input type="submit" class="contacts--form--sub" value="Отправить"/>
+    					<input id="footerName" name="contacts--form--name" type="text" class="contacts--form--inp name" placeholder="Имя"/>
+    					<input id="footerEmail" name="contacts--form--email" type="text" class="contacts--form--inp email" placeholder="Ваш e-mail"/>
+    					<textarea id="footerText" name="contacts--form--mess" class="contacts--form--text" placeholder="Введите сообщение"></textarea>
+    					<input id="sendFooter" type="submit" class="contacts--form--sub" value="Отправить"/>
     				</div>
     				<!-- close .contacts--form -->
     			</div>

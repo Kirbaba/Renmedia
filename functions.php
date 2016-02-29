@@ -180,6 +180,20 @@ function sendPhone(){
     wp_die();
 }
 
+// AJAX ACTION
+add_action('wp_ajax_sendFeedback', 'sendFeedback');
+add_action('wp_ajax_nopriv_sendFeedback', 'sendFeedback');
+
+function sendFeedback(){
+    add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    $msg = "<br><b>Имя: </b>" . $_POST['name'];
+    $msg .= "<br><b>Email: </b>" . $_POST['email'];
+    $msg .= "<br><b>Сообщение: </b>" . $_POST['text'];
+    wp_mail( get_option('admin_email'), "Обратная связь", $msg );
+    remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+    wp_die();
+}
+
 function set_html_content_type() {
     return 'text/html';
 }

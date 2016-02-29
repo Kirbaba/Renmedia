@@ -58,6 +58,24 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    $('#sendFooter').on('click', function(){
+        var name = $('#footerName').val();
+        var email = $('#footerEmail').val();
+        var text = $('#footerText').val();
+        $.ajax({
+            url: myajax.act, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendFeedback&name=" + name + "&email=" + email + "&text=" + text,
+            success: function (data) {
+                alert("Запрос отправлен.");
+                $('#footerName').val('');
+                $('#footerEmail').val('');
+                $('#footerText').val('');
+            }
+        });
+        return false;
+    });
  
   $("#owl-demo").owlCarousel({
  
