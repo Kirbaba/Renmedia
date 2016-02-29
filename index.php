@@ -56,12 +56,12 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">		      	     
 							<ul class="nav navbar-nav navigation__list">		      
-								<li><a href="#go_about" class="smoothScroll">Пункт 1</a></li>
-								<li><a href="#go_prod" class="smoothScroll">Пункт 1</a></li>
-								<li><a href="#go_lic" class="smoothScroll">Пункт 1</a></li>
-								<li><a href="#go_chen" class="smoothScroll">Пункт 1</a></li>
-								<li><a href="#go_cont" class="smoothScroll">Пункт 1</a></li>
-								<li><a href="#go_cont" class="smoothScroll">Пункт 1</a></li>	
+								<li><a href="#go_adv" class="smoothScroll">Преимущества</a></li>
+								<li><a href="#go_prices" class="smoothScroll">Цены</a></li>
+								<li><a href="#go_portfolio" class="smoothScroll">Портфолио</a></li>
+								<li><a href="#go_objections" class="smoothScroll">Возражения</a></li>
+								<li><a href="#go_rev" class="smoothScroll">Отзывы</a></li>
+								<li><a href="#go_partners" class="smoothScroll">Партнеры</a></li>	
 								<li><a href="#go_cont" class="smoothScroll">Контакты</a></li>		      
 							</ul>
 						</div><!-- /.navbar-collapse -->
@@ -107,6 +107,7 @@
 
     <!-- open .advantages -->
     <section class="advantages">
+    <a id="go_adv"></a>
     	<!-- open .container -->
     	<div class="container">
 	    	<!-- open .row -->
@@ -264,6 +265,7 @@
 
     <!-- open .prices -->
     <section class="prices">
+    <a id="go_prices"></a>
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
@@ -465,6 +467,7 @@
 
     <!-- open .video-slider -->
     <section class="video-slider">
+    <a id="go_portfolio"></a>
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
@@ -481,42 +484,42 @@
 	    			<div class="owl-item">
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/153339497?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/153339497?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/150734165?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/150734165?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/147520163?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/147520163?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/155932635?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/155932635?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/156161909?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/156161909?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/155086357?portrait=0&badge=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/155086357?portrait=0&badge=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/156045670?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/156045670?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    				<!-- open .video-slider__item -->
 	    				<div class="video-slider__item">
-	    					<iframe src="https://player.vimeo.com/video/144698619?title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    					<iframe src="https://player.vimeo.com/video/144698619?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	    				</div>
 	    				<!-- close .video-slider__item -->
 	    			</div>
@@ -579,6 +582,7 @@
 
     <!-- open .objections -->
     <section class="objections">
+    <a id="go_objections"></a>
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
@@ -721,6 +725,7 @@
 
     <!-- open .reviews -->
     <section class="reviews">
+    <a id="go_rev"></a>
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
@@ -824,6 +829,7 @@
 
     <!-- open .contacts -->
     <section class="contacts">
+    <a id="go_cont"></a>
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
