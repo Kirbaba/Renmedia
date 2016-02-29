@@ -5,7 +5,7 @@
 	width: 100%;
 	padding: 85px 0;
 	color: #FFF;
-	background-color: rgba(185, 92, 88, 0.8);
+	background-color: rgba(185, 92, 88, 0.5);
 	text-align: center;
 	-webkit-box-shadow: inset 0px -50px 80px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:    inset 0px -50px 80px 0px rgba(0, 0, 0, 0.2);
@@ -567,7 +567,7 @@
 	padding-bottom: 25px;
 	h3 {
 		font-weight: 900;
-		margin: 0 0 15px;
+		margin: 15px 0 15px;
 		font-size: 25px;
 		color: #2F2F2F;
 		display: block;
@@ -630,6 +630,80 @@
 				color: #428AC9;
 				margin-right: 10px;
 			} 
+		}
+	}
+	&--form {
+		h3 {
+			font-weight: 900;
+			margin: 15px 0 15px;
+			font-size: 25px;
+			color: #5c5c5c;
+			display: block;
+			width: 100%;
+			float: left;
+		}
+		&--inp {
+			display: block;
+			float: left;
+			position: relative;
+			width: 100%;
+			margin: 10px 0;
+			height: 60px;
+			line-height: 60px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			padding: 0 10px 0 50px;
+			border: 2px solid #DCDCDC;
+			outline: none;
+			@include border-radius(5px);
+			font-size: 23px;			
+		}
+		&--text {
+			display: block;
+			float: left;
+			position: relative;
+			width: 100%;
+			margin: 10px 0;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			padding: 10px 10px 0 50px;
+			border: 2px solid #DCDCDC;
+			outline: none;
+			@include border-radius(5px);
+			height: 200px;
+			resize: none;
+			font-size: 23px;
+			background-image: url('../img/Icon-Talk.png');
+			background-repeat: no-repeat;
+			-webkit-background-size: 25px 25px; 
+			     -o-background-size: 25px 25px; 
+			        background-size: 25px 25px;
+			background-position: 15px 15px;
+			 
+		}
+		&--sub {
+			@extend .header__contacts--order-call;
+			float: right;
+			outline: none;
+			border: none;
+		}
+		.name {
+			background-image: url('../img/Icon-Profile.png');
+			background-repeat: no-repeat;
+			-webkit-background-size: 25px 25px; 
+			     -o-background-size: 25px 25px; 
+			        background-size: 25px 25px;
+			background-position: 15px 50%; 
+		}
+		.email {
+			background-image: url('../img/Icon-Envelope.png');
+			background-repeat: no-repeat;
+			-webkit-background-size: 30px 25px; 
+			     -o-background-size: 30px 25px; 
+			        background-size: 30px 25px;
+			background-position: 12px 50%; 
 		}
 	}
 }

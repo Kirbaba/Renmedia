@@ -1,0 +1,27 @@
+.footer {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 15px 0;
+	color: #FFF;
+	background-color: #061C2B;
+	p {
+		font-size: 27px;
+	}
+	&--soc {
+		font-size: 27px;
+		text-align: right;
+		a {
+			text-decoration: none;
+			display: inline-block;
+			margin: 0 15px;
+			position: relative;
+			@include transition(.3s);
+			color: #fff;
+			&:hover, &:focus {
+				color: #FF633C;
+			} 
+		}
+	}
+}

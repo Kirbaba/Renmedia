@@ -35,7 +35,7 @@
     				<!-- open .header__contacts -->
     				<div class="header__contacts">
     					<h3>+7 499 390-92-20</h3>
-    					<a href="#" class="header__contacts--order-call">Заказать обратный звонок</a>
+    					<a href="#nowhere"  data-toggle="modal" data-target="#myModal" class="header__contacts--order-call">Заказать обратный звонок</a>
     					<h4>info@renmedia-tv.ru</h4>
     					<p>Московская область, Раменское, ул. Михалевича, 49</p>
     				</div>
@@ -75,7 +75,7 @@
     <!-- close .header -->
 
     <!-- open .video-commercial -->
-    <section class="video-commercial">
+    <section class="video-commercial"  data-vide-bg="<?php bloginfo('template_directory'); ?>/video/ren-video.mp4" data-vide-options="loop: true, muted: false, position: 50% 50%">
     	<!-- open .container -->
     	<div class="container">
     		<!-- open .row -->
@@ -358,7 +358,7 @@
     			<!-- open .prices__what-to-do -->
     			<div class="prices__what-to-do">
     				<h2>Что делать, если у меня нет видеоролика?</h2>
-    				<a href="#" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
+    				<a href="#nowhere"  data-toggle="modal" data-target="#myModal" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
     			</div>
     			<!-- close .prices__what-to-do -->
     			
@@ -713,7 +713,7 @@
     		<!-- open .row -->
     		<div class="row">
     			<h2>Что делать, если у меня нет сайта?</h2>
-				<a href="#" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
+				<a href="#nowhere"  data-toggle="modal" data-target="#myModal" class="prices__what-to-do--but">Оставить заявку на изготовление</a>
     		</div>
     		<!-- close .row -->
     	</div>
@@ -958,7 +958,7 @@
     					<input name="contacts--form--name" type="text" class="contacts--form--inp name" placeholder="Имя"/>
     					<input name="contacts--form--email" type="text" class="contacts--form--inp email" placeholder="Ваш e-mail"/>
     					<textarea name="contacts--form--mess" class="contacts--form--text" placeholder="Введите сообщение"></textarea>
-    					<input type="text" class="contacts--form--sub" value="Отправить"/>
+    					<input type="submit" class="contacts--form--sub" value="Отправить"/>
     				</div>
     				<!-- close .contacts--form -->
     			</div>
@@ -969,6 +969,51 @@
     	<!-- close .container -->
     </section>
     <!-- close .contacts -->
+
+    <!-- open .footer -->
+    <footer class="footer">
+    	<!-- open .container -->
+    	<div class="container">
+    		<!-- open .row -->
+    		<div class="row">
+    			<!-- open .col-lg-4 col-md-4 col-sm-5 col-xs-12 -->
+    			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+    				<p>© 1995–2016 <i>Ренмедиа</i></p>
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-5 col-xs-12 -->
+    			<!-- open .col-lg-4 col-md-4 col-sm-5 col-xs-12 -->
+    			<div class="col-lg-4 col-lg-offset-4 col-md-offset-4 col-md-4 col-sm-5 col-sm-offset-2 col-xs-12">
+    				<!-- open .footer--soc -->
+    				<div class="footer--soc">
+    					<a href="#"><i class="fa fa-vk"></i></a>
+    					<a href="#"><i class="fa fa-facebook"></i></a>
+    				</div>
+    				<!-- close .footer--soc -->
+    				
+    			</div>
+    			<!-- close .col-lg-4 col-md-4 col-sm-5 col-xs-12 -->
+    		</div>
+    		<!-- close .row -->
+    	</div>
+    	<!-- close .container -->
+    </footer>
+    <!-- close .footer -->
+
+    <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+		      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		      <h4>Оставте свои данные и мы свяжемся с Вами!</h4>
+		      <input name="myModal--name" type="text" class="contacts--form--inp" placeholder="Имя"/>
+		      <input name="myModal--phone" type="tel" class="contacts--form--inp" placeholder="Телефон"/>
+		      <input type="submit" class="contacts--form--sub" value="Отправить"/>
+	        
+	      </div>	     
+	    </div>
+	  </div>
+	</div>
 <?php wp_footer(); ?>
 </body>
 </html>
