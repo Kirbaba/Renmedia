@@ -151,7 +151,7 @@ add_action('wp_ajax_nopriv_sendBC', 'sendBC');
 function sendBC(){
     add_filter( 'wp_mail_content_type', 'set_html_content_type' );
     $msg = "<b>Имя: </b>" . $_POST['name'] . "<br><b>Телефон: </b>" . $_POST['phone'];
-    wp_mail( get_option('admin_email'), 'Запрос на обратный звонок', $msg );
+    wp_mail( get_option('admin_email'), 'Заказ обратного звонка', $msg );
     remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
     wp_die();
 }
